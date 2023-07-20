@@ -1,13 +1,13 @@
 public class ProdutoTeste {
     public static void main(String[] args) {
 
-        Produto p1 = new Produto();
-        p1.nome = "Notebook";
+        Produto p1 = new Produto("Notebook");
+        //p1.nome = "Notebook";
         p1.preco = 452.00;
         p1.desconto = 0.05;
 
-        Produto p2 = new Produto();
-        p2.nome = "Celular";
+        Produto p2 = new Produto("Celular");
+        //p2.nome = "Celular";
         p2.preco = 500.02;
         p2.desconto = 0.15;
 
@@ -21,8 +21,8 @@ public class ProdutoTeste {
         System.out.printf("Média do Carrinho = R$%.2f.", mediaCarrinho);
         System.out.println("");
 
-        Produto p3 = new Produto();
-        p3.nome = "Fone";
+        Produto p3 = new Produto("Fone");
+        //p3.nome = "Fone";
         p3.preco = 250.50;
         p3.desconto = 0.10;
 

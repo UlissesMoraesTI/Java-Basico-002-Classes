@@ -16,8 +16,17 @@ public class DataTeste {
         d2.mes = 12;
         d2.ano = 2023;
 
+        //
+        System.out.println("");
+        System.out.println("Estudando Métodos");
+
+        Data d3 = new Data();
+        Data d4 = new Data(31, 12, 2020);
 
 
-
+        System.out.println("d1=" + d1.dia + " " + d1.mes + " " + d1.ano);
+        System.out.println("d2=" + d2.dia + " " + d2.mes + " " + d2.ano);
+        System.out.println("d3=" + d3.dia + " " + d3.mes + " " + d3.ano);
+        System.out.println("d4=" + d4.dia + " " + d4.mes + " " + d4.ano);
     }
 }
