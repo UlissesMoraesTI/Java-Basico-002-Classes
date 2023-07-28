@@ -23,10 +23,6 @@ public class DesafioArray {
             System.out.println("Foreach: " + nota);
         }
 
-//        for ( nota : notasAluno ) {
-//            System.out.println(nota);
-//        }
-
         System.out.println("QTD: " + quantidadeNotas);
 
         double totalNotas = 0;
